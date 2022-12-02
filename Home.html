@@ -1,0 +1,209 @@
+<html>
+	<head>
+		<title> It's More Fun in the Philippines </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href ="Home.css">
+			<script>
+					function display_ct5() {
+					var x = new Date()
+					var ampm = x.getHours( ) >= 12 ? ' PM' : ' AM';
+
+					var x1=x.getMonth() + 1+ "/" + x.getDate() + "/" + x.getFullYear(); 
+					x1 = x1 + " - " +  x.getHours( )+ ":" +  x.getMinutes() + ":" +  x.getSeconds() + ":" + ampm;
+					document.getElementById('ct5').innerHTML = x1;
+					display_c5();
+					 }
+					 function display_c5(){
+					var refresh=1000; // Refresh rate in milli seconds
+					mytime=setTimeout('display_ct5()',refresh)
+					}
+					display_c5()
+			</script>
+	</head>
+	
+	<body style="background-color: #6495ed">
+		<header>
+			&nbsp;&nbsp;&nbsp;
+			<img src="images/ph.logo.png" class ="profile-img">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img src="images/MoreFun.png" class ="profile-img">
+			<span id='ct5' class="clock"></span>
+		</header>
+		<main>
+			<div class="sidenav">
+			  <button class="dropdown-btn"><div class="logo-image">
+				<img src="images/ph.png" class="img-fluid">About Philippines
+			  </div>
+			  </button>
+				  <div class="dropdown-container">
+					<a href="#history">History</a>
+					<a href="#geo">Geography & Environment</a>
+					<a href="#demo">Demographics</a>
+					<a href="#cult">Culture</a>
+				  </div>
+				<button class="dropdown-btn"><div class="logo-image">
+				<img src="images/plane.png" class="img-fluid">
+				Tourist Attractions
+				</button>
+				  <div class="dropdown-container">
+					<a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Luzon.html' target="_blank">Luzon</a>
+					<a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Visayas.html' target="_blank">Visayas</a>
+					<a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Mindanao.html' target="_blank">Mindanao</a>
+				  </div>
+			  <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/VideoGallery.html' target="_blank"><div class="logo-image">
+				<img src="images/cam.png" class="img-fluid">
+				Video Gallery</a></div>
+			  <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Login.html' target="_blank"><div class="logo-image">
+				<img src="images/lock.png" class="img-fluid">
+				Log-in</a></div>
+			  <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/ContactUs.html' target="_blank"><div class="logo-image">
+				<img src="images/phone.png" class="img-fluid">
+				Contact Us</a></div>
+			</div>
+			
+			<script>
+				/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+				var dropdown = document.getElementsByClassName("dropdown-btn");
+				var i;
+
+				for (i = 0; i < dropdown.length; i++) {
+				  dropdown[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var dropdownContent = this.nextElementSibling;
+					if (dropdownContent.style.display === "block") {
+					  dropdownContent.style.display = "none";
+					} else {
+					  dropdownContent.style.display = "block";
+					}
+				  });
+				}
+				
+				</script>
+			<section id="colegio">
+				<div class="section-inner">
+					<img src ="images/ph.poster.png" class="profile-img">
+					<h1 style="font-family:verdana; color:#00008b;"> COME & DISCOVER </h1>
+					<p  style="font-family:verdana; color:#ff4500; font-size:25px; indent:20px;"> It's more fun in the Philippines...
+					beautiful beaches, amazing wildlife,stunning landscapes, ocean adventures, cultural and culinary delights,
+					the warmth and hospitality of the Filipino people. </p>
+				</div>
+			</section>
+			
+			<section id="mission">
+				<div class="section-inner">
+					<blockquote>
+					<h2 style="font-family:verdana; color:#00008b;"> WAKE UP IN THE PHILIPPINES </h2>
+					<p style="font-family:verdana; color:#ff4500; font-size:25px; indent:20px;"> As we wait for the day to travel once again, 
+					discover the wonders that await you in our 7,641 islands from the comfort 
+					of your home. Stay at home, dream, and wake up in the Philippines. </p>
+					</blockquote>
+					<center> 
+					<iframe width="886" height="498" src="https://www.youtube.com/embed/Pmf7YVK5Bus" 
+					title="Wake Up in the Philippines | Philippines Tourism Ad" frameborder="0" allow="accelerometer; 
+					autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+				</div>
+			</section>
+			
+			<section id="history">
+				<div class="section-inner">
+					<h1 style="background-color:#00aeef"><center> <font face="fantasy" size="20px" color="#ffc40c"> About Philippines </h1></center></font>
+					<h2> History </h2>
+					<blockquote>
+					<p style="indent:20px"; align="justify"> Some 50 million years ago, the archipelago was formed by volcanic eruptions. 
+					About 30,000 years ago the earliest inhabitants had arrived from the Asian mainland, perhaps over land bridges built 
+					during the ice ages. By the tenth century A.D. coastal villagers welcomed Chinese commerce and settlers, followed by 
+					Muslim traders from Borneo. The early inhabitants of the Philippines were Mongoloid descent which are predominant today.
+					The gradual spread of Islam from Borneo into the central and northern islands was interrupted by the arrival of the Spanish
+					Christians. The Philippines were claimed in the name of Spain in 1521 by Ferdinand Magellan, a Portuguese explorer sailing for Spain,
+					who named the islands after King Philip II of Spain. They were then called Las Felipinas. By the 1830's Spanish culture and thought had 
+					penetrated into Filipino culture to the extent that the Filipino people began thinking about liberation from Spain. The government of
+					Spain developed Filipino agriculture to the point that it was self-sufficient. Fast forward to December 8, 1941 ten hours after the attack 
+					on Pearl Harbor, the Japanese military invaded the Philippines. United States forces under the command of General Douglas MacArthur withdrew 
+					to Java on December 12, 1941. MacArthur promised: "I shall return". General MacArthur kept his promise and returned with a massive amphibious
+					force on the island of Leyte in October of 1944. Over the next four months, U.S. forces, with the help of Filipino guerrillas routed the Japanese army.
+					After the war, the United Stated restored the pre-war Commonwealth government. By 1946 the Philippines had transformed from a Commonwealth to an independent republic.
+					</p>
+					</blockquote>  <img src ="images/old.map.jpg"> <h3> SOURCE: https://www.csub.edu/pacificrim/countryprospectus/history.htm </h3>
+				</div>
+			</section>
+			
+			<section id="geo">
+				<div class="section-inner">
+					<h2> Geography & Environment </h2>
+					<blockquote>
+					<p style="indent:20px"; align="justify">The Philippines is an archipelago comprised of 7,107 islands in the South China, Philippine, Sulu, 
+					and Celebes Seas, along with the Luzon Strait. The topography of the islands is mostly mountainous with narrow to large coastal lowlands, depending 
+					on the island. The Philippines is divided into three main geographic areas: the Luzon, Visayas, and Mindanao. The climate of the Philippines is tropical 
+					marine with a northeast monsoon from November to April and a southwest monsoon from May to October.
+					The Philippines, like many other tropical island nations, has problems with deforestation and soil and water pollution. 
+					The Philippines' problems with air pollution are especially bad because of large populations in its urban centers.
+					</p>
+					</blockquote>  <img src ="images/geo.gif"> <h3> SOURCE: https://www.thoughtco.com/geography-of-the-philippines </h3>
+				</div>
+			</section>
+			
+			<section id="demo">
+				<div class="section-inner">
+					<h2> Demographics of the Philippines </h2>
+					<h4> Demography of the Philippines records the human population, including its population density, 
+					ethnicity, education level, health, economic status, religious affiliations, and other aspects. </h4>
+					<img src ="images/demograph.png" width="750px">
+					<blockquote>
+					<p style="indent:20px"; align="justify">The Philippines annualized population growth rate between the years 2015–2020 was 1.63%. 
+					According to the 2020 census, the population of the Philippines is 109,035,343. The first census in the Philippines was held in 
+					the year 1591 which counted 667,612 people. The majority of Filipinos are lowland Austronesians, while the Aetas (Negritos), as well 
+					as other highland groups form a minority. The indigenous population is related to the indigenous populations of the Malay Archipelago. 
+					Some ethnic groups that have been in the Philippines for centuries before Spanish and American colonial rule have assimilated or intermixed.
+					600,000 people from the United States live in the Philippines. They represent 0.56% of the total population. The ethnic groups include Arabs,
+					Japanese, Han Chinese and Indians which form parts of the population.
+					</p>
+					</blockquote> <h3> SOURCE: https://web.archive.org/web/ </h3>
+				</div>
+			</section>
+			
+			<section id="cult">
+				<div class="section-inner">
+					<h2> Culture </h2>
+					<h4> The culture of the Philippines is characterized by cultural diversity. Although the multiple ethnic groups of the Philippine
+					archipelago have only recently established a shared Filipino national identity,their cultures were all shaped by the geography and history of the region. </h4>
+					<img src ="images/culture.jpg" width="750px">
+					<blockquote>
+					<p style="indent:20px"; align="justify">The Philippines is a culture in which East meets West. 
+					The Filipino people have a distinct Asian background, with a strong Western tradition. The modern Filipino culture developed through
+					influence from Chinease traders, Spanish conquistadors, and American rulers. Filipino people tend to be very hospitable, especially to
+					Western visitors. Because of their strong ties to Spanish culture, Filipinos are emotional and passionate about life in a way that 
+					seems more Latin than Asian. The family is the basic and most important aspect of Filipino culture. Divorce is prohibited and annulments are rare. 
+					The family is the safety net for indivuduals, especially older people, during difficult economic times. Children will often stay with their parents into
+					adulthood, only leaving when they get married. Political and business ties are often influenced by family relationships.
+					</p>
+					</blockquote> <h3> SOURCE: https://www.csub.edu/pacificrim/countryprospectus/culture.htm </h3>
+				</div>
+			</section>
+		</main>
+		<footer style="color:red">
+		<section id="contact">
+		<div class="section-inner">
+					<ul>
+						<li> About Philippines </li>
+							<ul>
+								<li><a href="#history"> History </a></li>
+								<li><a href="#geo"> Geography & Environment </a></li>
+								<li><a href="#demo"> Demographics </a></li>
+								<li><a href="#cult"> Culture </a></li>
+							</ul>
+						<li>  Tourist Attractions  </li>
+							<ul>
+								<li> <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Mindanao.html' target="_blank"> Luzon </a> </li>
+								<li> <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Mindanao.html' target="_blank"> Visayas </a> </li>
+								<li> <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Mindanao.html' target="_blank"> Mindanao </a> </li>
+							</ul>
+						<li> <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/VideoGallery.html' target="_blank"> Video Gallery </a> </li>
+						<li> <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/Login.html' target="_blank"> Log In </a> </li>
+						<li> <a href='file:///C:/Users/Natnat/Desktop/IT%20related%20files/ContactUs.html' target="_blank"> Contact Us </a> </li>
+					</ul>
+			@Copyright 2022
+		</footer>
+		<div>
+</body>
+			
+</html>
